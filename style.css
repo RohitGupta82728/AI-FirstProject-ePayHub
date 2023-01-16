@@ -6,11 +6,11 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Nunito', sans-serif;;
+    font-family: 'Nunito', sans-serif;
 }
 
 .container{
-    width: 100%  ;
+    width: 100% ;
 }
 
 .head{
@@ -62,6 +62,7 @@ body{
     align-items: center;
     padding: 20px 20px;
     border-radius: 15px;
+    box-shadow: 1px 1px 2px 2px;
 }
 
 .card-1{
@@ -128,6 +129,7 @@ body{
 }
 
 .box1-b h3{
+    font-weight: 400;
     font-size: 14px;
     text-align: center;
 }
@@ -160,6 +162,7 @@ body{
 }
 
 .box2-b h3{
+    font-weight: 400;
     font-size: 14px;
     text-align: center;
 }
@@ -177,7 +180,7 @@ body{
 .info{
     width: 100%;
     padding: 0 250px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .info h1{
     color: #2A357E;
@@ -295,9 +298,15 @@ section button:hover{
         font-size: 26px;
         padding: 15px 180px;
     }
+    .card{
+        margin-top: 30px;
+    }
     .card-2 img{
         width: 250px;
         height: 250px;
+    }
+    .info{
+        margin-top: 50px;
     }
 }
 
@@ -312,8 +321,9 @@ section button:hover{
     .head p{
         padding: 15px 120px;
         font-size:22px ;
-        line-height: 1.2rem;
+    
     }
+
 
     .card-box1 h1{
         text-align: center;
@@ -377,19 +387,20 @@ section button:hover{
         font-size: 16px;
     }
     .card-2 img{
+        margin-top: 20px;
         width: 210px;
-        height: 210px;
+        height: 190px;
     }
 
     .info{
-        margin-top: 12rem;
+        margin-top: 8rem;
     }
     .info-boxes{
         display: flex;
         flex-direction: column;
     }
     .footer-section{
-        padding: 20px 320px;
+        padding: 20px 300px;
     }
 }
 
@@ -403,7 +414,7 @@ section button:hover{
     }
     .head p{
         font-size: 18px;
-        line-height: 1.1rem;
+        line-height: 1.5rem;
         padding: 10px 60px;
     }
     .card-box1 h1{
@@ -412,7 +423,7 @@ section button:hover{
     }
 
     .card-2 img{
-        width: 150px;
+        width: 200px;
         height: 150px;
     }
     .box-child1 h1{
@@ -441,12 +452,14 @@ section button:hover{
     
     
     .box1-b h3{
-        font-size: 7px;
+        font-weight: 400;
+        font-size: 8px;
         text-align: center;
     }
     
     .box1-b h1{
-        font-size: 10px;
+        font-weight: 800;
+        font-size: 12px;
     }
 
     .div-box-2{
@@ -465,21 +478,31 @@ section button:hover{
     
     
     .box2-b h3{
+        font-weight: 500;
         font-size: 8px;
         text-align: center;
     }
     
     .box2-b h1{
-        font-size: 10px;
+        font-weight: 800;
+        font-size: 12px;
     }
     .card-2 img{
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 240px;
     }
+
     .info{
         margin-top: 15rem;
-        padding: 0 150px;
+        padding: 0 130px;
+        text-align: center;
     }
+
+    .inputs{
+        padding: 0 140px;
+        text-align: center;
+    }
+
     .info-boxes{
         display: flex;
         flex-direction: column;
@@ -491,7 +514,7 @@ section button:hover{
     }
 
     .footer-section{
-        padding: 30px 180px;
+        padding: 30px 170px;
     }
 }
 
@@ -507,8 +530,9 @@ section button:hover{
     .head p{
         padding: 10px 20px;
         font-size: 18px;
-        line-height: 1rem;
+        line-height: 1.5rem;
     }
+
 
     .card-box1 h1{
         text-align: center;
@@ -520,19 +544,19 @@ section button:hover{
     }
 
     .box-child1 h1{
-        margin-top: 18px;
-        font-size: 18px;
+        margin-top: 30px;
+        font-size: 16px;
     }
 
     .box-child1 img{
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
     }
 
     .div-box-1{
         margin-top: 35px;
-        width: 80px;
-        height: 20px;
+        width: 90px;
+        height: 30px;
     }
 
     .box1-a img{
@@ -545,17 +569,19 @@ section button:hover{
     
     
     .box1-b h3{
-        font-size: 5px;
+        font-weight: 450;
+        font-size: 7.5px;
         text-align: center;
     }
     
     .box1-b h1{
-        font-size: 8px;
+        font-weight: 800;
+        font-size: 10px;
     }
 
     .div-box-2{
         margin-top: 20px;
-        width: 80px;
+        width: 90px;
         height: 30px;
     }
 
@@ -569,12 +595,14 @@ section button:hover{
     
     
     .box2-b h3{
-        font-size: 5px;
+        font-weight: 400;
+        font-size: 7.5px;
         text-align: center;
     }
     
     .box2-b h1{
-        font-size: 8px;
+        font-weight: 800;
+        font-size: 10px;
     }
     .card-2 img{
         width: 120px;
@@ -582,7 +610,7 @@ section button:hover{
     }
 
     .info{
-        margin-top: 18rem;
+        margin-top: 15rem;
         padding: 0 80px;
     }
     .info-boxes{
@@ -599,7 +627,15 @@ section button:hover{
         font-size: 10px;
     }
 
+    .info-box1{
+        margin-top: 15px;
+    }
+
     .footer-section{
-        padding: 20px 140px;
+        padding: 20px 110px;
+    }
+    .footer-section h4{
+        margin-top: 10px;
+        text-align: center;
     }
 }
